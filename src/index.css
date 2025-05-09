@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+body {
+  background-color: #0d1224;
+  background-image: url('./assets/images/hero.svg');
+  margin: 0 9px;
+  font-family: "Delius Swash Caps", cursive;
+
+}
+
+.firstBlobAboutSvg {
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+
+}
+
+nav {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  padding: 0 30px;
+}
+
+section {
+  margin-top: 90px;
+}
+
+
+
+@media (min-width: 800px) {
+  .hidenOverFlow {
+    overflow: hidden !important;
+  }
+
+  body {
+    margin: 0 80px !important;
+
+  }
+}
+
+@media (max-width: 800px) {
+  #skills {
+    margin-top: 160px !important;
+  }
+
+  #education {
+    padding-top: 100px !important;
+  }
+
+  .navbar-container {
+    padding: 1.5rem 0rem !important;
+  }
+
+  nav {
+    padding: 0 16px !important;
+  }
+
+  #logo {
+    font-size: 2rem;
+    color: white;
+  }
+}
