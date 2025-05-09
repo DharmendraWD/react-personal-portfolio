@@ -27,6 +27,7 @@ function Homepage() {
                             target='_blank'
                             className="transition-all text-pink-500 hover:scale-125 duration-300"
                         >
+
                             <BsGithub size={30} />
                         </Link>
                         <Link
