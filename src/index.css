@@ -1,11 +1,12 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
 
 body {
   background-color: #0d1224;
   background-image: url('./assets/images/hero.svg');
   margin: 0 9px;
-  font-family: "Delius Swash Caps", cursive;
+   font-family: "Gaegu", sans-serif !important;
 
 }
 
