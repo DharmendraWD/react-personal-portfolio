@@ -14,7 +14,7 @@ const Navbar = () => {
             <div className="navbar-container">
                 {/* Logo/Brand */}
                 <div className="navbar-brand">
-                    <a href="/" id='logo'>Dharmendra</a>
+                    <a href="/" id='logo'><Dharmendra/></a>
                 </div>
 
                 {/* Hamburger Menu Icon (Mobile) */}
